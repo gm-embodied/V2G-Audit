@@ -1,7 +1,7 @@
-# V2G-Audit: Vector-to-Graph Transformation for Reliable Schematic Auditing
+# Beyond Pixels: A Vector-to-Graph Framework for Reliable Schematic Auditing
 
 This repository accompanies the paper:  
-**"Beyond Pixels: Vector-to-Graph Transformation for Reliable Schematic Auditing" (ICASSP 2025, under review)**
+**"Beyond Pixels: A Vector-to-Graph Framework for Reliable Schematic Auditing" (ICASSP 2025, under review)**
 
 ---
 
