@@ -1,0 +1,11 @@
+{
+  "results": [
+    {
+      "function": "check_grounding_uniqueness",
+      "region": "CT_secondary",
+      "status": false,
+      "detail": "Missing grounding.",
+      "ground_count": 0
+    }
+  ]
+}

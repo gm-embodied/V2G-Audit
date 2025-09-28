@@ -1,0 +1,26 @@
+# Symbol and layer configuration for parsing
+tolerance:
+  tau_endpoint_snap: 5        # endpoint proximity in drawing units
+  tau_junction_snap: 5
+
+layers:
+  # If provided, only parse these layers; leave empty to parse all
+  include: []
+  exclude: []
+
+symbols:
+  # regex patterns matched (case-insensitive) against INSERT block names
+  GROUND: ["GROUND", "PE", "GND", "EARTH", "接地"]
+  CT: ["CT", "CURRENT_TRANSFORMER"]
+  BREAKER: ["BRK", "BREAKER", "CB", "断路器"]
+  JUNCTION: ["JUNCTION", "NODE", "DOT"]
+  TERMINAL_BOX: ["TERMINAL", "TB", "端子箱"]
+  BUS: ["BUS", "母线", "BUSBAR"]
+
+text:
+  # Attach text on same layer within this distance (drawing units) to nearest symbol/endpoint
+  attach_distance: 10
+
+wires:
+  # layers considered as wires; if empty, any LINE not matching symbols is a candidate
+  layers: []

@@ -1,0 +1,8 @@
+{
+  "rules": [
+    {
+      "region": "CT_secondary",
+      "function": "check_grounding_uniqueness"
+    }
+  ]
+}
